@@ -1,0 +1,24 @@
+h1 {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: normal;
+    color: #18cfab;
+    background: #44433e;
+    line-height: 42 px; 
+}
+h2 {
+     font-size: 13px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: normal;
+    color: #b8b8b8;
+    background: #44433e;
+    line-height: 42 px;
+}
+h3 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: normal;
+    color: #ffffff;
+    background: #3c3c3c;
+    line-height: 42 px;
+}
