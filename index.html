@@ -2,43 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Movie</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
-    <h1>Hello World</h1>
-    <img src="http://kinogo.club/uploads/posts/2016-11/thumbs/1478875912_passazhiry.jpg"
-    title="Hello World" alt="Hello World" height="150">
-    <p><b><em>Пробудження / Passengers (2016)</em></b></p>
-    <small><p>Жанр: пригодницький, драма, романтичний</p>
-    <p>Країна: США</p>
-    <p>Рейтинг <s>IMDb:</s> <ins>7.1</ins></p></small>
-    <p><strong>Режисер: Мортен Тільдум</strong>
-    <p>Актори:</p>
-    <p><ul>
-        
-        <a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80_%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81" 
-            target="_blank" <li>Дженніфер Лоуренс</li></a>
-        <li>Кріс Пратт</li> 
-        <li>Майкл Шин</li>
-   </ul></p>
-   <hr>
-   <p>Other</p>
-   <ol>
-       <li>MMMMMMMMM</li>
-       <li>OOOOOOOOO</li>
-       <li>AND:</li>
-       <ul><li>gfgggg</li>
-       <li>fdhfje</li>
-       <li>JJJJJFJ</li>
-       </ul>
-       </ol>
-     
-<div>  
-     <iframe src="http://kinogo.club/6574-passazhiry-2016.html" frameborder="0" width="400" height="400"></iframe>
-</div>
-    
+    <header> <h1 align="center">The world of movies</h1></header>
+    <section>
+        <h2 align="center">Пробудження / Passengers (2016)</h2>
+        <article>
+            <header><h2>Information about film</h2></header>
+            <figure>
+                <img src="http://kinogo.club/uploads/posts/2016-11/thumbs/1478875912_passazhiry.jpg"
+                title="Hello World" alt="Hello World" height="150">
+                <figurecaption>text img</figurecaption>
+            </figure>
+            <div>
+                <p>Жанр: пригодницький, драма, романтичний</p>
+                <p>Країна: США</p>
+                <p>Рейтинг <s>IMDb:</s> <ins>7.1</ins></p>
+                <p><strong>Режисер: Мортен Тільдум</strong>
+                <p>Актори:</p>
+                <ul> 
+                    <li><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80_%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81" 
+                target="_blank">Дженніфер Лоуренс</a></li>
+                    <li>Кріс Пратт</li> 
+                    <li>Майкл Шин</li>
+                </ul>
+                <hr>
+                <p>Other</p>
+                <ol>
+                    <li>MMMMMMMMM</li>
+                    <li>OOOOOOOOO</li>
+                    <li>AND:
+                        <ul
+                            ><li>gfgggg</li>
+                            <li>fdhfje</li>
+                            <li>JJJJJFJ</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <footer>
+                <div>  
+                    <iframe src="http://kinogo.club/6574-passazhiry-2016.html" frameborder="0" width="400" height="400"></iframe>
+                </div>
+            </footer>  
+        </article>
+    </section>
+    <aside>
+        <div>
+            <fieldset>
+                <legend align="center">Registration</legend>
+                <form action="" method="GET" name="registerForm">
+                    <div>
+                        <label for="focusname">Enter your nikname</label>
+                        <input type="text" name="username"  id="focusname" value="" placeholder="Enter here">
+                    </div>
+                    <div>
+                        <label for="focusNumber">Enter your age</label>
+                        <input type="number" name="userage" id="focusNumber" value="" min="0" max="120" placeholder="Enter your age here">
+                    </div>
+                    <div>
+                        <label for="Date">Chose Date</label>
+                        <input type="date" name="userDate" >
+                    
+                    </div>
+                    <div>
+                        <label for="focusSexMan">Чоловіча стать</label>
+                        <input type="radio" name="usersex"  id="focusSexMan" value="man">
+                        <label for="focusSexWoman">Жіноча стать</label>
+                        <input type="radio" name="usersex"  id="focusSexWoman" value="woman">
+                    </div>
+                    <div>
+                        <label for="focusSelect">Виберіть мову програмування</label>
+                        <select name="userLang" id="focusSelect">
+                            <option value="">Виберіть мову</option>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JavaScript</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="focusTextarea">Enter comment</label>
+                        <textarea cols="5" rows="5" name="usercomment"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="send my form">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </aside>    
+    <!--
        <table border="1" width="300" height="200" align="center">
            <caption>table 1</caption>
            <thead>
@@ -79,7 +134,7 @@
           
         </table>
           <table border="1" width="300" height="200" align="center" cellpading="0" cellspasing="0">
-  <tbody>
+    <tbody>
            <tr>
                <td>1.1</td>
                <td rowspan="2">1.2</td>
@@ -88,47 +143,36 @@
                <td>2.1</td>
                <td>2.2</td>
            </tr>
-    <div>
-        <fieldset >
-             <legend align="center">Registration</legend>
-            <form action="" method="GET" name="registerForm">
-                <div>
-                    <label for="focusname">Enter your nikname</label>
-                    <input type="text" name="username"  id="focusname"value="" placeholder="Enter here">
-                </div>
-                <div>
-                    <label for="focusNumber">Enter your age</label>
-                    <input type="number" name="userage" id="focusNumber" value="" min="0" max="120" placeholder="Enter your age here">
-                </div>
-                <div>
-                     <label for="Date">Chose Date</label>
-                    <input type="date" name="userDate" >
-                
-                </div>
-                  <div>
-                    <label for="focusSexMan">Чоловіча стать</label>
-                    <input type="radio" name="usersex"  id="focusSexMan"value="man">
-                    <label for="focusSexWoman">Жіноча стать</label>
-                    <input type="radio" name="usersex"  id="focusSexWoman"value="woman">
-                </div>
-                <div>
-                     <label for="focusSelect">Виберіть мову програмування</label>
-                     <select name="userLang" id="focusSelect">
-                        <option value="">Виберіть мову</option>
-                        <option value="html">HTML</option>
-                        <option value="css">CSS</option>
-                        <option value="js">JavaScript</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="focusTextarea">Enter comment</label>
-                    <textarea cols="5" rows="5" name="usercomment"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="send my form">
-                </div>
-            </form>
-        </fieldset>
-    </div>
+-->
+    <footer>
+        <table border="1" width="300" height="200" align="center">
+           <caption>розклад сеансів</caption>
+           <thead>
+            <tr>         
+               <th>Назва фільму</th>
+               <th>Червоний зал</th>
+               <th>Синій зал</th>
+           </tr>
+           </thead>
+           <tbody>
+           <tr>
+               <td>Пробудження</td>
+               <td>10:10; 14:20, 18:30</td>
+               <td>12:15, 15:30, 20:20</td>              
+           </tr>
+           <tr>
+               <td>Прибуття</td>
+               <td>11:30, 17:20</td>
+               <td>10:50, 14:30, 22:00</td>
+           </tr>
+             <tr>
+               <td>Космос</td>
+               <td>17:40</td>
+               <td>19:05</td>
+              
+           </tr>
+           </tbody>
+        </table>
+    </footer>
 </body>
 </html>
